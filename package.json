@@ -1,0 +1,28 @@
+{
+  "name": "sample1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --target browser",
+    "build": "parcel build src/index.html --target browser",
+    "watch": "parcel watch src/index.html --target browser"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.8.2",
+    "axios": "^0.19.1",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-decorators": "^7.8.0",
+    "typescript": "^3.7.4"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
